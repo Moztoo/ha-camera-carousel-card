@@ -26,23 +26,23 @@ compact: false
 live_stream: false
 refresh_interval: 5
 cameras:
-  - entity: camera.cam_entrada
-    name: Entrada
-    motion_switch: switch.cam_entrada_motion_alarm
-    privacy_switch: switch.cam_entrada_privacy_mode
-    recording_switch: switch.cam_entrada_video_recording
-  - entity: camera.cam_calle
-    name: Calle
-    motion_switch: switch.cam_calle_motion_alarm
-    privacy_switch: switch.cam_calle_privacy_mode
-    recording_switch: switch.cam_calle_video_recording
-    siren_entity: siren.cam_calle
-  - entity: camera.cam_patio
-    name: Patio
-    motion_switch: switch.cam_patio_motion_alarm
-    privacy_switch: switch.cam_patio_privacy_mode
-    recording_switch: switch.cam_patio_video_recording
-    siren_entity: siren.cam_patio
+  - entity: camera.front_door
+    name: Front Door
+    motion_switch: switch.front_door_motion_alarm
+    privacy_switch: switch.front_door_privacy_mode
+    recording_switch: switch.front_door_video_recording
+  - entity: camera.driveway
+    name: Driveway
+    motion_switch: switch.driveway_motion_alarm
+    privacy_switch: switch.driveway_privacy_mode
+    recording_switch: switch.driveway_video_recording
+    siren_entity: siren.driveway
+  - entity: camera.backyard
+    name: Backyard
+    motion_switch: switch.backyard_motion_alarm
+    privacy_switch: switch.backyard_privacy_mode
+    recording_switch: switch.backyard_video_recording
+    siren_entity: siren.backyard
 grid_options:
   columns: 12
   rows: auto
